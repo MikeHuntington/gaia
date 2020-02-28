@@ -1,10 +1,10 @@
 module github.com/cosmos/gaia
 
-go 1.13
+go 1.14
 
 require (
 	github.com/btcsuite/btcd v0.0.0-20190807005414-4063feeff79a // indirect
-	github.com/cosmos/cosmos-sdk v0.34.4-0.20200220161522-9b4707917138
+	github.com/cosmos/cosmos-sdk v0.34.4-0.20200228122611-66f8e35b9028
 	github.com/gogo/protobuf v1.3.1
 	github.com/golang/mock v1.3.1 // indirect
 	github.com/onsi/ginkgo v1.8.0 // indirect
@@ -22,7 +22,7 @@ require (
 	github.com/stretchr/testify v1.5.1
 	github.com/tendermint/go-amino v0.15.1
 	github.com/tendermint/tendermint v0.33.1
-	github.com/tendermint/tm-db v0.4.0
+	github.com/tendermint/tm-db v0.4.1
 	golang.org/x/net v0.0.0-20190827160401-ba9fcec4b297 // indirect
 	golang.org/x/text v0.3.2 // indirect
 )
